@@ -5,9 +5,9 @@ import java.util.Stack;
 class Solution {
     public boolean isValid(String s) {
         // Return false if there are not an even amount of letters in the string
-        // if(s.length() % 2 != 0) {
-        //     return false;
-        // }
+        if(s.length() % 2 != 0) {
+            return false;
+        }
 
         Stack<Character> stack = new Stack<Character>();
         for(char c : s.toCharArray()) {
