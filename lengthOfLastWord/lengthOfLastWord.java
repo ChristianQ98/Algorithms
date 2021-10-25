@@ -1,5 +1,13 @@
 package lengthOfLastWord;
 
+/* 
+
+Given a string, 's',consisting of some words separated by some number of spaces, return the length of the last word in the string.
+
+A word is a maximal substring consisting of non-space characters only.
+
+*/
+
 class Solution {
     public int lengthOfLastWord(String s) {
         // The count variable is used to count letters in a row with no spaces & is used as a temp variable/placeholder
